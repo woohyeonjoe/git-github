@@ -235,4 +235,4 @@ git remote add origin [https://github.com/woohyeonjoe/git-github.git](https://gi
 git push할 때 제외할 패키지를 파일에 입력
 
 
-> **자료 출처** [매우쉽게 알려주는 git & github](https://codingapple.com/course/git-and-github/)
+> **자료 출처** [코딩애플 [매우쉽게 알려주는 git & github]](https://codingapple.com/course/git-and-github/)
