@@ -229,7 +229,7 @@ git remote add origin [https://github.com/woohyeonjoe/git-github.git](https://gi
 3. `Create pull request`
 4. `Merge pull request`
 
----
+
 `.gitignore`  : git push할 때 제외할 패키지 입력
 
 
