@@ -114,9 +114,9 @@ rebase는 브랜치의 시작점을 다른 commit으로 옮겨주는 행위이�
 `git switch main`
 `git merge 새로운브랜치`
 
-차례로 입력하면 rebase 끝입니다.
+차례로 입력하면 rebase 끝이다.
 
-rebase & merge를 한 줄로 쉽게 비유하자면 **강제 fast-forward merge**입니다.
+rebase & merge를 한 줄로 쉽게 비유하자면 **강제 fast-forward merge**이다.
 
 **squash and merge**
 
@@ -134,7 +134,7 @@ rebase & merge를 한 줄로 쉽게 비유하자면 **강제 fast-forward merge
 
 그럼 이제 main 브랜치의 git log 출력해볼 때
 
-merge 완료된 브랜치의 commit 같은 것들은 출력되지 않습니다.
+merge 완료된 브랜치의 commit 같은 것들은 출력되지 않는다.
 
 `git switch main`
 `git merge --squash 브랜치명`
@@ -143,7 +143,7 @@ merge 완료된 브랜치의 commit 같은 것들은 출력되지 않습니다.
 
 squash and merge 하는 법은 그냥 --squash 옵션을 추가하면 끝.
 
-브랜치에서 만들어놨던 많은 commit 을 다 합쳐서 하나의 commit으로 main 브랜치에 생성해줍니다.
+브랜치에서 만들어놨던 많은 commit 을 다 합쳐서 하나의 commit으로 main 브랜치에 생성해다.
 
 ## **코드짜다가 실수했다 되돌아가자(git revert, reset, restore)**
 
@@ -202,25 +202,25 @@ git remote add origin [https://github.com/woohyeonjoe/git-github.git](https://gi
 
 ## Github 사용법 3. 브랜치로 협업하기 (pull request)
 
-원격 repository (저장소) 에도 브랜치를 만들 수 있습니다.
+원격 repository (저장소) 에도 브랜치를 만들 수 있다.
 
 브랜치 생성하려면 
 
 1. github.com에서 브랜치 직접 만들어도 되고 
-2. 아니면 로컬에서 만든 브랜치를 올려도 브랜치생성이 가능합니다.
+2. 아니면 로컬에서 만든 브랜치를 올려도 브랜치생성이 가능.
 
 > Pull request 하기
 > 
 
-브랜치만들면 뭐합니까 그걸 main 브랜치와 합쳐야 기능이 완성되지 않겠습니까.
+브랜치 만들고 그걸 main 브랜치와 합쳐야 기능의 완성이다.
 
-합치려면 git merge 명령어로 합치면 끝입니다. 그리고 git push 하면 끝인데
+합치려면 git merge 명령어로 합치면 끝이다. 그리고 git push 하면 끝인데
 
-팀끼리 일하는 경우 merge 하기 전에 토론하거나 검토하거나 그래야하는 경우가 많습니다.
+팀끼리 일하는 경우 merge 하기 전에 토론하거나 검토하거나 그래야하는 경우가 많다.
 
-그래서 github.com은 pull request 라는 기능이 있습니다.
+그래서 github.com은 pull request 라는 기능이 있다.
 
-그냥 쉬운 말로 merge request입니다.
+그냥 쉬운 말로 merge request이다.
 
 협업자가 브랜치를 push하고 웹사이트에서 merge하는 법
 
